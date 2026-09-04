@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio of Alex Morgan, a product designer and frontend developer focused on thoughtful digital experiences."
+    />
+    <title>Alex Morgan | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="Alex Morgan home">Alex Morgan</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Frontend Developer • Product Designer</p>
+            <h1>I build clean digital experiences that feel human.</h1>
+            <p class="lead">
+              I’m Alex Morgan, a multidisciplinary designer and developer crafting elegant
+              interfaces, scalable product systems, and memorable user journeys.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">View Projects</a>
+              <a class="button secondary" href="#contact">Let’s Talk</a>
+            </div>
+            <ul class="mini-stats" aria-label="Quick stats">
+              <li><strong>6+</strong><span>Years experience</span></li>
+              <li><strong>24</strong><span>Launches</span></li>
+              <li><strong>8</strong><span>Industries</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Profile summary card">
+            <div class="profile-badge">Available for freelance work</div>
+            <div class="portrait-shell">
+              <div class="portrait-figure">
+                <span class="dot dot-1"></span>
+                <span class="dot dot-2"></span>
+                <span class="dot dot-3"></span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <p>Based in Seattle, WA</p>
+              <p>Designing and building products for startups and mission-driven brands.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section-spacing">
+        <div class="container narrow-content">
+          <p class="section-tag">About</p>
+          <h2>Thoughtful design meets practical engineering.</h2>
+          <p>
+            I help teams turn ideas into products people love. My process blends strategy,
+            interaction design, and frontend development to create experiences that are both
+            beautiful and useful.
+          </p>
+          <p>
+            From product discovery to launch, I enjoy building clear systems, polished interfaces,
+            and experiences that make complex work feel simple.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section-spacing">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-tag">Projects</p>
+              <h2>Selected work</h2>
+            </div>
+            <a href="#contact" class="text-link">Start a project</a>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-visual visual-one"></div>
+              <div class="project-body">
+                <p class="project-type">SaaS platform</p>
+                <h3>Northstar Analytics</h3>
+                <p>
+                  Redesigned a business intelligence dashboard to simplify workflows and make
+                  performance reporting clearer for non-technical users.
+                </p>
+                <ul>
+                  <li>UX strategy</li>
+                  <li>Design systems</li>
+                  <li>Frontend build</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual visual-two"></div>
+              <div class="project-body">
+                <p class="project-type">E-commerce</p>
+                <h3>Harbor Market</h3>
+                <p>
+                  Built a premium storefront experience with a flexible product discovery flow and
+                  improved conversion-focused merchandising.
+                </p>
+                <ul>
+                  <li>Shop design</li>
+                  <li>Conversion optimization</li>
+                  <li>Responsive UI</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual visual-three"></div>
+              <div class="project-body">
+                <p class="project-type">Mobile product</p>
+                <h3>Pulse Health</h3>
+                <p>
+                  Led the redesign of a wellness app experience focused on habit tracking,
+                  motivation, and more intuitive care insights.
+                </p>
+                <ul>
+                  <li>Mobile UX</li>
+                  <li>Research synthesis</li>
+                  <li>Prototyping</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <p class="section-tag">Contact</p>
+          <h2>Let’s build something meaningful.</h2>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:alex@example.com">alex@example.com</a>
+          <p>Available for product design, UI engineering, and creative partnerships.</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Alex Morgan</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
